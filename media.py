@@ -14,19 +14,20 @@ class Movie():
 	Methods:
 		__init__ method: initializes the class.
 	"""
-    def __init__(self,title,poster,trailer,writer,date):
-        """initializes the class.
 
-        Args:
-            Movie's title, poster, trailer, writer and launch date
+	def __init__(self,title,poster,trailer,writer,date):
+	    """initializes the class.
 
-        Returns:
-        	Nothing.
-        """
-        self.title = title
-        self.poster_image_url = poster
-        self.trailer_youtube_url = trailer
-        self.screen_writer = writer
-        self.launch_date = date
+	    Args:
+	        Movie's title, poster, trailer, writer and launch date
+
+	    Returns:
+	    	Nothing.
+	    """
+	    self.title = title
+	    self.poster_image_url = poster
+	    self.trailer_youtube_url = trailer
+	    self.screen_writer = writer
+	    self.launch_date = date
 
 
